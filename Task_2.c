@@ -13,4 +13,6 @@ int main(void){
     printf("The entered value is a number");
     else if(in >= 0 && in <= 47 || in >= 58 && in <= 64 || in >= 91 && in <= 96 || in >= 123 && in <= 127 )
     printf("The entered value is a special character");
+
+    return 0;
 }
